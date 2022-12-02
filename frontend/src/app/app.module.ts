@@ -42,6 +42,7 @@ import { DatePipe } from "@angular/common";
 import { CalenderComponent } from "./component/htmlComponents/calender/calender.component";
 import { DialogComponent } from "./component/htmlComponents/dialog/dialog.component";
 import { LandingComponent } from './pages/landing/landing.component';
+import { IonicModule } from '@ionic/angular';
 registerLocaleData(en);
 /**
  * This function sends the request to get token.
@@ -107,6 +108,7 @@ export function tokenGetter() {
     // NgbModule,
     NgxMaskModule.forRoot(),
     NgbModule,
+    IonicModule.forRoot(),
   ],
   providers: [MessageService, DatePipe],
   bootstrap: [AppComponent],
