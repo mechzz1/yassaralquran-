@@ -41,6 +41,7 @@ import { LineChartComponent } from "./component/htmlComponents/line-chart/line-c
 import { DatePipe } from "@angular/common";
 import { CalenderComponent } from "./component/htmlComponents/calender/calender.component";
 import { DialogComponent } from "./component/htmlComponents/dialog/dialog.component";
+import { LandingComponent } from './pages/landing/landing.component';
 registerLocaleData(en);
 /**
  * This function sends the request to get token.
@@ -80,6 +81,7 @@ export function tokenGetter() {
     LineChartComponent,
     CalenderComponent,
     DialogComponent,
+    LandingComponent,
   ],
   imports: [
     BrowserModule,
