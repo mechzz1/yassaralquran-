@@ -18,15 +18,15 @@
           <ul class="navbar-list">
   
             <li class="navbar-item">
-              <a href="#home" class="navbar-link" data-nav-toggler>Home</a>
+              <a (click)="scroll(home)" class="navbar-link" data-nav-toggler>Home</a>
             </li>
   
             <li class="navbar-item">
-              <a href="#about" class="navbar-link" data-nav-toggler>About</a>
+              <a (click)="scroll(about)" class="navbar-link" data-nav-toggler>About</a>
             </li>
   
             <li class="navbar-item">
-              <a href="#courses" class="navbar-link" data-nav-toggler>Courses</a>
+              <a (click)="scroll(courses)"  class="navbar-link" data-nav-toggler>Courses</a>
             </li>
   
             <li class="navbar-item">
@@ -38,7 +38,7 @@
             </li>
   
             <li class="navbar-item">
-              <a href="#" class="navbar-link" data-nav-toggler>Contact</a>
+              <a (click)="scroll(contact)"  class="navbar-link" data-nav-toggler>Contact</a>
             </li>
   
           </ul>
@@ -51,7 +51,7 @@
             <ion-icon name="search-outline"></ion-icon>
           </button>
   
-          <a href="#" class="header-action-btn login-btn">
+          <a href="#" routerLink="/login" class="header-action-btn login-btn">
             <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
   
             <span class="span">Login / Register</span>
@@ -92,7 +92,7 @@
     <main>
       <article>
   
-        <section class="hero" id="home" aria-label="hero" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <section class="hero" id="home" aria-label="hero" style="background-image: url('./assets/images/hero-bg.jpg')" #home>
           <div class="container">
   
             <div class="hero-content">
@@ -321,7 +321,7 @@
           - #ABOUT
         -->
   
-        <section class="section about" id="about" aria-label="about">
+        <section class="section about" id="about" aria-label="about" #about>
           <div class="container">
   
             <figure class="about-banner">
@@ -418,7 +418,7 @@
         -->
   
         <section class="section course" id="courses" aria-label="course"
-          style="background-image: url('./assets/images/course-bg.jpg')">
+          style="background-image: url('./assets/images/course-bg.jpg')" #courses>
           <div class="container">
   
             <p class="section-subtitle">Popular Courses</p>
@@ -1055,7 +1055,7 @@
         -->
   
         <section class="section newsletter" aria-label="newsletter"
-          style="background-image: url('./assets/images/newsletter-bg.jpg')">
+          style="background-image: url('./assets/images/newsletter-bg.jpg')" #contact>
           <div class="container">
   
             <p class="section-subtitle">Subscribe Newsletter</p>
@@ -1304,7 +1304,7 @@
     -->
   
     <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
-      <ion-icon name="arrow-up"></ion-icon>
+      <ion-icon name="arrow-up">sad</ion-icon>
     </a>
   
   

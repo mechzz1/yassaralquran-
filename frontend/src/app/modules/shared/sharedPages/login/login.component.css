@@ -1,6 +1,6 @@
 .login-page {
   min-height: 100vh;
-  background: #ededed;
+  /* background: #ededed; */
 }
 
 .login-card {
@@ -30,7 +30,7 @@ h3 {
 }
 .box {
   margin-bottom: 80px;
-  margin-top: 80px;
+  margin-top: 180px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 50px 50px 50px 50px;
   background: #ffffff;
@@ -54,3 +54,9 @@ h3 {
     display: none;
   }
 }
+
+
+.bg{
+  /* background: linear-gradient(to right, #e8cbc0, #636fa4);  */
+}
+

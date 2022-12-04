@@ -125,6 +125,8 @@ body {
   font-size: 1.6rem;
   font-weight: var(--fw-500);
   line-height: 1.6;
+  position: absolute !important;
+  overflow: auto !important;
 }
 
 :focus-visible { outline-offset: 4px; }

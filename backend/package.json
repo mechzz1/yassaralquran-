@@ -38,6 +38,7 @@
     "request-promise": "^4.2.6",
     "sequelize": "^5.22.5",
     "sequelize-auto-migrations": "github:scimonster/sequelize-auto-migrations#a063aa6535a3f580623581bf866cef2d609531ba",
+    "sequelize-cli": "^6.5.2",
     "socket.io": "^4.4.0",
     "stripe": "^8.197.0",
     "uuid": "^8.3.2",
